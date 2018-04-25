@@ -6,6 +6,10 @@
         <element id="directory" name="classes">
           <element id="module-output" name="friendspammer-web" />
         </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: nl.hu.bep.friendspammer:friendspammer-helper:1.0-SNAPSHOT" />
+          <element id="library" level="project" name="Maven: org.mongodb:mongo-java-driver:3.7.0-rc0" />
+        </element>
       </element>
       <element id="directory" name="META-INF">
         <element id="file-copy" path="$PROJECT_DIR$/target/friendspammer-web/META-INF/MANIFEST.MF" />
