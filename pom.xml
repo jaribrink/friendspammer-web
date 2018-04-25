@@ -26,19 +26,6 @@
         </repository>
     </repositories>
 
-
-
-    <distributionManagement>
-        <repository>
-            <id>packagecloud-JariBrink</id>
-            <url>packagecloud+https://packagecloud.io/JariBrink/friendspammer-repos</url>
-        </repository>
-        <snapshotRepository>
-            <id>packagecloud-JariBrink</id>
-            <url>packagecloud+https://packagecloud.io/JariBrink/friendspammer-repos</url>
-        </snapshotRepository>
-    </distributionManagement>
-
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
