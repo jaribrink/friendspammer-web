@@ -13,6 +13,30 @@
         <java.version>1.8</java.version>
     </properties>
 
+    <repositories>
+        <repository>
+            <id>JariBrink-friendspammer-repos</id>
+            <url>https://packagecloud.io/priv/c540ab41a886a548543edf0776e57add3cd5441207783791/JariBrink/friendspammer-repos/maven2</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
+
+    <distributionManagement>
+        <repository>
+            <id>packagecloud-JariBrink</id>
+            <url>packagecloud+https://packagecloud.io/JariBrink/friendspammer-repos</url>
+        </repository>
+        <snapshotRepository>
+            <id>packagecloud-JariBrink</id>
+            <url>packagecloud+https://packagecloud.io/JariBrink/friendspammer-repos</url>
+        </snapshotRepository>
+    </distributionManagement>
+
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
